@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@android:color/white"
+              android:padding="1dp"
+        >
+    <ScrollView android:layout_height="fill_parent"
+                android:layout_width="fill_parent">
+        <TextView
+                android:id="@+id/tv_WordContent"
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:background="@android:color/white"
+                android:textSize="@dimen/medium_font_size"
+                ></TextView>
+    </ScrollView>
+</LinearLayout>
+
